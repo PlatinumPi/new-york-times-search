@@ -18,9 +18,17 @@ body {
     margin: 0;
 }
 
+#newspaper {
+    width: 30px;
+    height: 30px;
+}
 /* Header/logo Title */
 .header {
+<<<<<<< HEAD
+    /* padding: 80px; */
+=======
     padding: 30px;
+>>>>>>> 247452cb1dcc1698ad485b50344be4937c146f85
     text-align: center;
     background: navy;
     color: white;
