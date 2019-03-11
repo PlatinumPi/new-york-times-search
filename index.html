@@ -14,7 +14,7 @@
 <body>
 
     <div class="header">
-        <h1><img id="newspaper" src="assets/images/newspaper-folded.png"/>New York Times Search</h1>
+        <h1><img id="newspaper" src="assets/images/newspaper-folded.png" />New York Times Search</h1>
         <!-- <p>A <b>responsive</b> website created by Chandler Paulk.</p> -->
     </div>
 
@@ -26,29 +26,41 @@
     </div>
 
     <div class="row">
-        <!-- <div class="side">
-            <h2>About Me</h2>
-            <h5>Photo of me:</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            <h3>More Text</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
-            <div class="fakeimg" style="height:60px;">Image</div><br>
-            <div class="fakeimg" style="height:60px;">Image</div><br>
-            <div class="fakeimg" style="height:60px;">Image</div>
-        </div> -->
+
         <div class="main">
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Dec 7, 2017</h5>
-            <div class="formOne" style="height:200px;">Image</div>
-          <button type="submit" id="form-one" value="submit">Search</button>
-          <button type="reset" id="form-two" value="reset">Clear results</button>
-            <br>
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Sep 2, 2017</h5>
-            <div class="formTwo" style="height:200px;">Image</div>
-           
+            <h2>Search Parameters</h2>
+            <div class="formOne">
+                <form id="search-form">
+                    <label for="searchterm-input">Search Term:</label>
+                    <br><input type="text" id="searchterm-input"><br><br>
+                </form>
+
+                <form id="number-form">
+                    <label for="number-input"></label>
+                    <br><input type="text" id="number-input"><br><br>
+                </form>
+
+                <form id="start-form">
+                    <label for="start-input">Start Year(optional):</label>
+                    <br><input type="text" id="start-input"><br><br>
+                </form>
+
+                <form id="end-form">
+                    <label for="end-input">End Year (optional):</label>
+                    <br><input type="text" id="end-input"><br><br>
+                </form>
+
+                <button type="submit" id="form-one" value="submit">Search</button>
+                <button type="reset" id="form-two" value="reset">Clear results</button>
+            </div>
         </div>
+    </div>
+    <br>
+    <div class="formTwo">
+        <h2>Top Articles</h2>
+
+
+
     </div>
 
     <div class="footer">
