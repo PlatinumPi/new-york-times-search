@@ -7,15 +7,28 @@
     height: 50px;
 }
 
+.formOne {
+    width: 50%;
+    height: 32px;
+    font-size: 24px;
+}
 /* Style the body */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
+#newspaper {
+    width: 30px;
+    height: 30px;
+}
 /* Header/logo Title */
 .header {
+<<<<<<< HEAD
+    /* padding: 80px; */
+=======
     padding: 30px;
+>>>>>>> 247452cb1dcc1698ad485b50344be4937c146f85
     text-align: center;
     background: navy;
     color: white;
@@ -53,13 +66,13 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-    background-color: #ffc000;
+    background-color: lightblue;
     color: black;
 }
 
 /* Active/current link */
 .navbar a.active {
-    background-color: #b94318;
+    background-color: blue;
     color: white;
 }
 
@@ -99,7 +112,7 @@ body {
 .footer {
     padding: 20px;
     text-align: center;
-    background: #e25522;
+    background: navy;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
