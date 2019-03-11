@@ -8,11 +8,15 @@ body {
     margin: 0;
 }
 
+#newspaper {
+    width: 30px;
+    height: 30px;
+}
 /* Header/logo Title */
 .header {
-    padding: 80px;
+    /* padding: 80px; */
     text-align: center;
-    background: #ff7100;
+    background: navy;
     color: white;
 }
 
